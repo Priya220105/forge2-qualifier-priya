@@ -60,8 +60,11 @@ Agent infrastructure and Slack communication remained functional.
 
 ---
 
+
 ## Evidence Files
 
-- Slack screenshots: `slack-export/`
-- OpenClaw terminal logs: captured in screenshots
-- Repository documentation: README.md, ARCHITECTURE.md, SKILL.md, agent-log.md
+- slack-export/01-slack-roundtrip.png - Slack communication showing human task → OpenClaw response
+- slack-export/02-openclaw-task-execution.png - OpenClaw successfully generated and wrote code (`index.html`)
+- slack-export/03-hermes-gateway.png - Hermes gateway initialization and messaging platform startup
+- slack-export/04-openclaw-terminal.png - OpenClaw TUI running with active agent session and Gemini 2.5 Flash model
+- slack-export/05-openclaw-gateway-logs.png - OpenClaw gateway logs showing Slack socket connection, channel resolution, and incoming app mentions
